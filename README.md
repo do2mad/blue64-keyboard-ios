@@ -1,8 +1,8 @@
-# Blue-64 Keyboard for iOS
+# Blue-64 Keyboard for iOS and Android
 
 *Deutsche Fassung: [README.de.md](README.de.md)*
 
-Turn your iPhone into a wireless keyboard for a Commodore 64 fitted with a
+Turn your iPhone or Android phone into a wireless keyboard for a Commodore 64 fitted with a
 [BT-64 / Blue-64](https://github.com/sideprojectslab/BT-64) Bluetooth adapter – no extra hardware needed.
 
 ![Keyboard](docs/screenshots/keyboard.png)
@@ -18,8 +18,11 @@ and sends every key press over Bluetooth Low Energy to the BT-64, which drives t
 
 ## Get the app
 
-- **TestFlight (beta):** link follows soon
-- App Store: planned
+- **iPhone – TestFlight (beta):** link follows soon
+- **iPhone – App Store:** planned
+- **Android:** download `Blue64-Keyboard-Android-x.y.z.apk` from the
+  [latest release](https://github.com/do2mad/blue64-keyboard-ios/releases/latest) on your phone and open it.
+  Android asks once to allow installing apps from this source (browser / Files).
 
 This repository contains the documentation, the BLE protocol and the releases.
 The source code of the app is not published.
@@ -41,7 +44,8 @@ The source code of the app is not published.
 
 ## Requirements
 
-- iPhone with iOS 17 or later
+- iPhone with iOS 17 or later, or an Android phone with Android 8.0 or later
+  (Android 11 and older: location must be switched on for the Bluetooth search – Android requirement, the app does not use your location)
 - A C64 with BT-64 / Blue-64 running the firmware with the BLE keyboard service ([docs/FIRMWARE.md](docs/FIRMWARE.md))
 
 ## Usage

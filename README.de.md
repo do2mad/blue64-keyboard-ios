@@ -1,8 +1,8 @@
-# Blue-64 Keyboard für iOS
+# Blue-64 Keyboard für iOS und Android
 
 *English version: [README.md](README.md)*
 
-Macht das iPhone zur kabellosen Tastatur für einen Commodore 64 mit
+Macht das iPhone oder Android-Handy zur kabellosen Tastatur für einen Commodore 64 mit
 [BT-64 / Blue-64](https://github.com/sideprojectslab/BT-64) Bluetooth-Adapter – ohne Zusatzhardware.
 
 ![Tastatur](docs/screenshots/keyboard.png)
@@ -19,8 +19,11 @@ der die Tastaturleitungen des C64 direkt ansteuert.
 
 ## App bekommen
 
-- **TestFlight (Beta):** Link folgt in Kürze
-- App Store: geplant
+- **iPhone – TestFlight (Beta):** Link folgt in Kürze
+- **iPhone – App Store:** geplant
+- **Android:** `Blue64-Keyboard-Android-x.y.z.apk` aus dem
+  [neuesten Release](https://github.com/do2mad/blue64-keyboard-ios/releases/latest) auf dem Handy herunterladen und öffnen.
+  Android fragt einmal, ob Apps aus dieser Quelle (Browser / Dateien) installiert werden dürfen.
 
 Dieses Repository enthält Dokumentation, BLE-Protokoll und Releases.
 Der Quellcode der App wird nicht veröffentlicht.
@@ -42,7 +45,8 @@ Der Quellcode der App wird nicht veröffentlicht.
 
 ## Voraussetzungen
 
-- iPhone ab iOS 17
+- iPhone ab iOS 17 oder Android-Handy ab Android 8.0
+  (bis Android 11 muss für die Bluetooth-Suche der Standort eingeschaltet sein – Vorgabe von Android, die App nutzt den Standort nicht)
 - C64 mit BT-64 / Blue-64 und der Firmware mit BLE-Tastaturdienst ([docs/FIRMWARE.md](docs/FIRMWARE.md))
 
 ## Bedienung

@@ -16,6 +16,7 @@ Erste Version.
 - Text und kurze BASIC-Listings eintippen lassen, eigene Textbausteine
 - Oberfläche Deutsch und Englisch
 - Benötigt die BT-64-Firmware mit BLE-Tastaturdienst
+- Android-App (ab Android 8.0) mit denselben Funktionen, als APK im Release
 
 ### English
 
@@ -29,3 +30,4 @@ First release.
 - Type text and short BASIC listings, custom snippets
 - English and German user interface
 - Requires the BT-64 firmware with the BLE keyboard service
+- Android app (Android 8.0+) with the same features, as APK in the release
