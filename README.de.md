@@ -19,7 +19,7 @@ der die Tastaturleitungen des C64 direkt ansteuert.
 
 ## App bekommen
 
-- **iPhone – TestFlight (Beta):** Link folgt in Kürze
+- **iPhone – TestFlight (Beta):** App „TestFlight“ installieren, dann https://testflight.apple.com/join/jEn4tsP7 öffnen
 - **iPhone – App Store:** geplant
 - **Android:** `Blue64-Keyboard-Android-x.y.z.apk` aus dem
   [neuesten Release](https://github.com/do2mad/blue64-keyboard-ios/releases/latest) auf dem Handy herunterladen und öffnen.

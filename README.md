@@ -18,7 +18,7 @@ and sends every key press over Bluetooth Low Energy to the BT-64, which drives t
 
 ## Get the app
 
-- **iPhone – TestFlight (beta):** link follows soon
+- **iPhone – TestFlight (beta):** install the TestFlight app, then open https://testflight.apple.com/join/jEn4tsP7
 - **iPhone – App Store:** planned
 - **Android:** download `Blue64-Keyboard-Android-x.y.z.apk` from the
   [latest release](https://github.com/do2mad/blue64-keyboard-ios/releases/latest) on your phone and open it.
