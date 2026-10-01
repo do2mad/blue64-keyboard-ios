@@ -47,7 +47,9 @@ Der Quellcode der App wird nicht veröffentlicht.
 
 - iPhone ab iOS 17 oder Android-Handy ab Android 8.0
   (bis Android 11 muss für die Bluetooth-Suche der Standort eingeschaltet sein – Vorgabe von Android, die App nutzt den Standort nicht)
-- C64 mit BT-64 / Blue-64 und der Firmware mit BLE-Tastaturdienst ([docs/FIRMWARE.md](docs/FIRMWARE.md))
+- C64 mit **entweder**
+  - BT-64 / Blue-64 und der Firmware mit BLE-Tastaturdienst ([docs/FIRMWARE.md](docs/FIRMWARE.md)), **oder**
+  - einem [Pico64-Keyboard](https://github.com/do2mad/pico64-keyboard)-Adapter – Selbstbau-Alternative mit Raspberry Pi Pico 2 W, 17 Widerständen und einer Diode
 
 ## Bedienung
 

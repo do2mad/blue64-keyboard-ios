@@ -46,7 +46,9 @@ The source code of the app is not published.
 
 - iPhone with iOS 17 or later, or an Android phone with Android 8.0 or later
   (Android 11 and older: location must be switched on for the Bluetooth search – Android requirement, the app does not use your location)
-- A C64 with BT-64 / Blue-64 running the firmware with the BLE keyboard service ([docs/FIRMWARE.md](docs/FIRMWARE.md))
+- A C64 with **either**
+  - a BT-64 / Blue-64 running the firmware with the BLE keyboard service ([docs/FIRMWARE.md](docs/FIRMWARE.md)), **or**
+  - a [Pico64 Keyboard](https://github.com/do2mad/pico64-keyboard) adapter – a DIY alternative with a Raspberry Pi Pico 2 W, 17 resistors and a diode
 
 ## Usage
 
