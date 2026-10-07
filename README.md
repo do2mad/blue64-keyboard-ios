@@ -57,6 +57,8 @@ Pico 2 W that acts as a USB keyboard – the app shows two buttons **C64** and *
 - Text and snippets are typed with the chosen layout; separate snippets for C64 and PC,
   switchable in the text window
 
+![PC keyboard (Pico USB Keyboard)](docs/screenshots/pc-keyboard.png)
+
 ## Requirements
 
 - iPhone with iOS 17 or later, or an Android phone with Android 8.0 or later

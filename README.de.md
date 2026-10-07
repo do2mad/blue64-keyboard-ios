@@ -58,6 +58,8 @@ Pico 2 W, der sich als USB-Tastatur meldet – zeigt die App oben zwei Knöpfe *
 - Text und Textbausteine werden im gewählten Layout getippt; getrennte Bausteine für C64 und PC,
   im Textfenster umschaltbar
 
+![PC-Tastatur (Pico USB Keyboard)](docs/screenshots/pc-keyboard.png)
+
 ## Voraussetzungen
 
 - iPhone ab iOS 17 oder Android-Handy ab Android 8.0
