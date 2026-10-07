@@ -40,16 +40,32 @@ Der Quellcode der App wird nicht veröffentlicht.
 - **Textbausteine:** eigene Knöpfe (z. B. `LOAD"$",8`), in der App anlegen, ändern, sortieren
 - Cursor-Schnelltasten, automatisches Wiederverbinden
 - Oberfläche Deutsch und Englisch
+- **PC-Modus** mit einem [Pico USB Keyboard](https://github.com/do2mad/pico-usb-keyboard): das Handy wird zur
+  USB-Tastatur für MiSTer, PC, Mac oder Raspberry Pi (siehe unten)
 
 ![Text tippen lassen und Textbausteine](docs/screenshots/type-text.png)
+
+## PC-Modus (Pico USB Keyboard)
+
+Mit einem [Pico USB Keyboard](https://github.com/do2mad/pico-usb-keyboard) – ein einfacher Raspberry Pi
+Pico 2 W, der sich als USB-Tastatur meldet – zeigt die App oben zwei Knöpfe **C64** und **PC**:
+
+- **C64** – die C64-Tastatur, gesendet als die Tasten, die der C64-Core des MiSTer erwartet
+- **PC** – eine normale PC- oder Mac-Tastatur: Layouts US, Deutsch (PC), Deutsch (Mac), US (Mac); Strg, Alt,
+  Win/Cmd, AltGr/Option, Esc, F1–F12, Pfeiltasten, Caps Lock
+- Sondertasten: antippen = für die nächste Taste, **zweimal antippen = eingerastet**, nochmal = aus
+- Bei aktivem Shift / Option / AltGr zeigen die Tasten das Zeichen, das getippt wird
+- Text und Textbausteine werden im gewählten Layout getippt; getrennte Bausteine für C64 und PC,
+  im Textfenster umschaltbar
 
 ## Voraussetzungen
 
 - iPhone ab iOS 17 oder Android-Handy ab Android 8.0
   (bis Android 11 muss für die Bluetooth-Suche der Standort eingeschaltet sein – Vorgabe von Android, die App nutzt den Standort nicht)
-- C64 mit **entweder**
-  - BT-64 / Blue-64 und der Firmware mit BLE-Tastaturdienst ([docs/FIRMWARE.md](docs/FIRMWARE.md)), **oder**
-  - einem [Pico64-Keyboard](https://github.com/do2mad/pico64-keyboard)-Adapter – Selbstbau-Alternative mit Raspberry Pi Pico 2 W, 17 Widerständen und einer Diode
+- **Eins** davon:
+  - C64 mit BT-64 / Blue-64 und der Firmware mit BLE-Tastaturdienst ([docs/FIRMWARE.md](docs/FIRMWARE.md))
+  - C64 mit einem [Pico64-Keyboard](https://github.com/do2mad/pico64-keyboard)-Adapter – Selbstbau-Alternative mit Raspberry Pi Pico 2 W, 17 Widerständen und einer Diode
+  - ein [Pico USB Keyboard](https://github.com/do2mad/pico-usb-keyboard) – Raspberry Pi Pico 2 W an einem beliebigen USB-Anschluss (MiSTer, PC, Mac, Raspberry Pi), ohne Verkabelung
 
 ## Bedienung
 
@@ -60,6 +76,8 @@ Der Quellcode der App wird nicht veröffentlicht.
 - **Text** öffnet das Eingabefenster. Zeilenumbruch = RETURN, Sonderzeichen:
   `{clr} {home} {f1}…{f8} {up} {down} {left} {right} {stop} {run} {pi}`.
 - Die **Textbausteine** oben im Textfenster tippen ihren Text sofort ein; verwalten über **Bausteine**.
+  Mit einem Pico USB Keyboard gibt es zwei Sätze, **C64** und **PC** – das Fenster öffnet mit dem
+  Satz der gerade angezeigten Tastatur.
 
 ## Protokoll
 

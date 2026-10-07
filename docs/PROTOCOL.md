@@ -45,3 +45,17 @@ ATT error `0x81` means the text is too long.
 ## Info
 
 Read returns `[protocol version, status]`, status bit 0 = text feed running.
+
+On Pico64 Keyboard and Pico USB Keyboard the info has a third byte, the capabilities:
+bit 0 = full matrix (`C64B0005`), bit 1 = USB key states (`C64B0006`), bit 2 = PC text (`C64B0007`).
+
+## Extensions
+
+These characteristics only exist on the Pico adapters – check the capabilities byte or the
+characteristic list before using them.
+
+| Characteristic | UUID | Device | Content |
+|---|---|---|---|
+| Matrix | `C64B0005-B1E6-4A64-9C64-6B7E3F1A2D00` | Pico64, Pico USB | `[flags, col0 … col7]` – the complete C64 key state, see the [Pico64 protocol](https://github.com/do2mad/pico64-keyboard/blob/main/docs/PROTOCOL.md) |
+| USB keys | `C64B0006-B1E6-4A64-9C64-6B7E3F1A2D00` | Pico USB | `[modifiers, key1 … key6]` – a USB HID boot keyboard report (usage IDs), write / write without response |
+| PC text | `C64B0007-B1E6-4A64-9C64-6B7E3F1A2D00` | Pico USB | `[flags, layout, UTF-8 …]` – flags bit 0 first / bit 1 last chunk, layout 0 US, 1 German (PC), 2 German (Mac), 3 US (Mac); typed with that layout, newline = Enter |

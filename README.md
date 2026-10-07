@@ -39,16 +39,32 @@ The source code of the app is not published.
 - **Snippets:** your own text buttons (e.g. `LOAD"$",8`), editable and reorderable in the app
 - Cursor shortcut keys, automatic reconnect, keys are released when the app goes to the background
 - English and German user interface
+- **PC mode** with a [Pico USB Keyboard](https://github.com/do2mad/pico-usb-keyboard): the phone becomes a
+  USB keyboard for a MiSTer, PC, Mac or Raspberry Pi (see below)
 
 ![Type text and snippets](docs/screenshots/type-text.png)
+
+## PC mode (Pico USB Keyboard)
+
+Connected to a [Pico USB Keyboard](https://github.com/do2mad/pico-usb-keyboard) – a plain Raspberry Pi
+Pico 2 W that acts as a USB keyboard – the app shows two buttons **C64** and **PC** at the top:
+
+- **C64** – the C64 keyboard, sent as the keys the MiSTer C64 core expects
+- **PC** – a normal PC or Mac keyboard: layouts US, German (PC), German (Mac), US (Mac); Ctrl, Alt,
+  Win/Cmd, AltGr/Option, Esc, F1–F12, cursor keys, Caps Lock
+- Modifier keys: tap = for the next key, **double tap = locked**, tap again = off
+- While Shift / Option / AltGr is active, the keys show the character that will be typed
+- Text and snippets are typed with the chosen layout; separate snippets for C64 and PC,
+  switchable in the text window
 
 ## Requirements
 
 - iPhone with iOS 17 or later, or an Android phone with Android 8.0 or later
   (Android 11 and older: location must be switched on for the Bluetooth search – Android requirement, the app does not use your location)
-- A C64 with **either**
-  - a BT-64 / Blue-64 running the firmware with the BLE keyboard service ([docs/FIRMWARE.md](docs/FIRMWARE.md)), **or**
-  - a [Pico64 Keyboard](https://github.com/do2mad/pico64-keyboard) adapter – a DIY alternative with a Raspberry Pi Pico 2 W, 17 resistors and a diode
+- **One** of these:
+  - a C64 with a BT-64 / Blue-64 running the firmware with the BLE keyboard service ([docs/FIRMWARE.md](docs/FIRMWARE.md))
+  - a C64 with a [Pico64 Keyboard](https://github.com/do2mad/pico64-keyboard) adapter – a DIY alternative with a Raspberry Pi Pico 2 W, 17 resistors and a diode
+  - a [Pico USB Keyboard](https://github.com/do2mad/pico-usb-keyboard) – a Raspberry Pi Pico 2 W on any USB port (MiSTer, PC, Mac, Raspberry Pi), no wiring
 
 ## Usage
 
@@ -60,7 +76,8 @@ The source code of the app is not published.
   `{clr} {home} {f1}…{f8} {up} {down} {left} {right} {stop} {run} {pi}`.
   *UPPER/graphics* types letters unshifted (default C64 mode), *lower/UPPER* keeps the case.
 - **Snippets** are the buttons at the top of the text window: tap to type them, manage them via
-  **Snippets** (add, edit, delete, reorder, restore defaults).
+  **Snippets** (add, edit, delete, reorder, restore defaults). With a Pico USB Keyboard there are
+  two sets, **C64** and **PC** – the window opens with the set of the current keyboard.
 
 ## Protocol
 
