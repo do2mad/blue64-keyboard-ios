@@ -2,6 +2,22 @@
 
 Blue-64 Keyboard für iOS und Android. Neueste Version zuerst.
 
+## Neu (noch ohne Release) / Unreleased
+
+### Deutsch
+
+- **iPad** (TestFlight): Tastatur unten, Textfeld mit Bausteinen immer sichtbar, Ziffernblock und Pos1/Ende/Bild im PC-Modus.
+- **iPhone/iPad: Tasten reagieren sofort**, auch an der Seite des Ladeanschlusses (iOS hatte dort Berührungen bis zu 0,75 s zurückgehalten) und beim Festhalten von SHIFT mit einem zweiten Finger.
+- **Rechte SHIFT-Taste** wird als rechte SHIFT gesendet (Pico64 ab 0.11.1, Pico USB Keyboard ab 0.4.1). Beim Blue-64 (Firmware ab v1.12-ble2) nur, wenn keine andere Taste gehalten wird.
+- **Mehrere Tasten gleichzeitig halten** (Pico64, Pico USB Keyboard): die App sendet die ganze Tastaturmatrix, eine zweite Taste lässt die erste nicht mehr los – wie bei der echten Tastatur. Das Blue-64 kann technisch nur eine Taste, dort bleibt es wie bisher.
+
+### English
+
+- **iPad** (TestFlight): keyboard at the bottom, text field with snippets always visible, number pad and Home/End/PgUp/PgDn in PC mode.
+- **iPhone/iPad: keys react at once**, also on the side of the charging port (iOS held touches back there for up to 0.75 s) and while SHIFT is held with another finger.
+- **Right SHIFT key** is sent as right SHIFT (Pico64 0.11.1 and newer, Pico USB Keyboard 0.4.1 and newer). With the Blue-64 (firmware v1.12-ble2 and newer) only while no other key is held.
+- **Hold several keys at once** (Pico64, Pico USB Keyboard): the app sends the complete keyboard matrix, a second key no longer releases the first one – like the real keyboard. The Blue-64 can only handle one key, no change there.
+
 ## v1.1.0 – 2026-10-07
 
 ### Deutsch
