@@ -90,6 +90,12 @@ feel free to write your own client for other platforms.
 
 The app collects no data. See [PRIVACY.md](PRIVACY.md).
 
+## Discussion
+
+Questions, photos, experiences: the thread in the (German) retro forum
+[1mhz.de – Pico64-Keyboard, SPL BT-64 oder Blue-64 Tastaturadapter](https://1mhz.de/forum/thread/8761-pico64-keyboard-spl-bt-64-oder-blue-64-tastaturadapter/).
+Bug reports and feature requests are also welcome as a GitHub issue.
+
 ## Credits & license
 
 - BT-64 / Blue-64 hardware and firmware by [SideProjectsLab](https://github.com/sideprojectslab/BT-64) (Apache-2.0)
