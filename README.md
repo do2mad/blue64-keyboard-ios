@@ -1,6 +1,6 @@
 # Blue-64 Keyboard for iOS and Android
 
-*Deutsche Fassung: [README.de.md](README.de.md)*
+> 🇩🇪 **Deutsche Anleitung: [README.de.md](README.de.md)**
 
 Turn your iPhone or Android phone into a wireless keyboard for a Commodore 64 fitted with a
 [BT-64 / Blue-64](https://github.com/sideprojectslab/BT-64) Bluetooth adapter – no extra hardware needed.
