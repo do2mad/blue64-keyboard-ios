@@ -2,7 +2,9 @@
 
 Blue-64 Keyboard für iOS und Android. Neueste Version zuerst.
 
-## Neu (noch ohne Release) / Unreleased
+## v1.1.1 – 2026-10-15
+
+Android 1.1.1 · iPhone/iPad: TestFlight 1.1.0 (7)
 
 ### Deutsch
 
