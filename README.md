@@ -61,7 +61,7 @@ Pico 2 W that acts as a USB keyboard – the app shows two buttons **C64** and *
 
 ## Requirements
 
-- iPhone with iOS 17 or later, or an Android phone with Android 8.0 or later
+- iPhone or iPad with iOS 15 or later (also older ones like iPad Air 2, iPhone 6s), or an Android phone with Android 8.0 or later
   (Android 11 and older: location must be switched on for the Bluetooth search – Android requirement, the app does not use your location)
 - **One** of these:
   - a C64 with a BT-64 / Blue-64 running the firmware with the BLE keyboard service ([docs/FIRMWARE.md](docs/FIRMWARE.md))

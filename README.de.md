@@ -62,7 +62,7 @@ Pico 2 W, der sich als USB-Tastatur meldet – zeigt die App oben zwei Knöpfe *
 
 ## Voraussetzungen
 
-- iPhone ab iOS 17 oder Android-Handy ab Android 8.0
+- iPhone oder iPad ab iOS 15 (auch ältere wie iPad Air 2, iPhone 6s) oder Android-Handy ab Android 8.0
   (bis Android 11 muss für die Bluetooth-Suche der Standort eingeschaltet sein – Vorgabe von Android, die App nutzt den Standort nicht)
 - **Eins** davon:
   - C64 mit BT-64 / Blue-64 und der Firmware mit BLE-Tastaturdienst ([docs/FIRMWARE.md](docs/FIRMWARE.md))

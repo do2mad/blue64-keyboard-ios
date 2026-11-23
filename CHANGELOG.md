@@ -2,6 +2,18 @@
 
 Blue-64 Keyboard für iOS und Android. Neueste Version zuerst.
 
+## iPhone/iPad 1.1.0 (8) – 2026-11-23
+
+TestFlight 1.1.0 (8) · Android unverändert / unchanged (1.1.1)
+
+### Deutsch
+
+- **Läuft jetzt ab iOS 15** (vorher iOS 17) – auch auf älteren Geräten wie iPad Air 2, iPad mini 4, iPhone 6s/7/SE. Unter iOS 15 kann der Home-Balken am unteren Rand sichtbar bleiben, sonst ist alles gleich.
+
+### English
+
+- **Now runs on iOS 15 and later** (was iOS 17) – also on older devices like iPad Air 2, iPad mini 4, iPhone 6s/7/SE. On iOS 15 the home indicator may stay visible at the bottom, everything else is the same.
+
 ## v1.1.1 – 2026-10-15
 
 Android 1.1.1 · iPhone/iPad: TestFlight 1.1.0 (7)
